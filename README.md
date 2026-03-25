@@ -1,7 +1,7 @@
 # Musl Libc with Program Repository Support
 
 This git repository contains a copy of musl libc (forked from [musl-libc@`cfdfd5ea`](http://git.musl-libc.org/cgit/musl/commit/?id=cfdfd5ea3ce14c6abf7fb22a531f3d99518b5a1b)
-with modifications to output to a [Program Repository](https://github.com/SNSystems/llvm-project-prepo).
+with modifications to output to a [Program Repository](https://github.com/sonyinteractive/sn-llvm-project-prepo).
 
 ## Build musl-libc with the Program Repository Compiler
 
@@ -15,7 +15,7 @@ sudo apt-get install -y git python
 Clone the musl-prepo project via:
 
 ```bash
-git clone https://github.com/SNSystems/musl-prepo
+git clone https://github.com/sonyinteractive/sn-musl-prepo
 ```
 
 Then configure and build musl-prepo:
